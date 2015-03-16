@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>UCAS Calc</title>
+        <script src="simplestorage.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+    <div class="container">
+        <h1>BTEC Calc</h1>
+
+        <div class="grades">
+            <form action="" class="grade-form">
+                <label for="">Distinction</label><input type="text" name="distinction" />
+                <label for="">Merit</label><input type="text" name="merit"/>
+                <label for="">Pass</label><input type="text" name="pass" />
+                <label for="">Total</label><input type="text" name="total" readonly />
+            </form>
+
+        </div>
+
+        <div class="credits">
+            <h2>Credits</h2>
+            <form action="">
+                <input type="radio" name="credits" value="5"> 5
+                <input type="radio" name="credits" value="10"> 10
+                <input type="radio" name="credits" value="15"> 15
+            </form>
+        </div>
+        
+        <span id="cleardata">
+            Clear Data
+        </span>
+    </div>
+
+    </body>
+
+</html>
